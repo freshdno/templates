@@ -28,7 +28,7 @@ resource "yandex_compute_disk" "boot_disk" {
   type     = "network-hdd"
   zone     = "ru-central1-a"
   size     = var.disk_size
-  image_id = fd861t36p9dqjfrqm0g4
+  image_id = "fd861t36p9dqjfrqm0g4"
 }
 
 resource "yandex_compute_instance" "vm" {
