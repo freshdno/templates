@@ -50,7 +50,7 @@ resource "yandex_compute_instance" "vm" {
   }
 
   metadata = {
-    user-data = file("$/home/serega/templates/meta.txt")
+    user-data = file("/home/serega/templates/meta.txt")
   }
 }
 
